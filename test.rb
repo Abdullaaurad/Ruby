@@ -3,7 +3,7 @@ def greet(l)
     n=10
     puts "Hello, Ruby!",n
     puts "number = ",l
-  end
+end
   
   # Call the greet method
   greet(5)
