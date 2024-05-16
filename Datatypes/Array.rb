@@ -36,3 +36,5 @@ grades.pop(3)       #removes last 3 elements in Array
 for i in grades
     print " #{i}"
 end
+
+grades.each_with_index {|val,idx| print "\nThe value at index #{idx} is #{val}"}
